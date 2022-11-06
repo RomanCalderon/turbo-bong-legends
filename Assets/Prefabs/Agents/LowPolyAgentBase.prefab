@@ -5885,8 +5885,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interpolationDataSource: 0
-  _initialFuel: 300
-  _maxFuel: 600
+  _initialFuel: 0
+  _maxFuel: 300
   _idleThrustConsumption: 7
   _fullThrustConsumption: 15
   _jetpackObject: {fileID: 6350332840307813848}

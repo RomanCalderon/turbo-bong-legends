@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d671857a3d898af44a6648a7fb09ec93, type: 3}
+  m_Name: AgentSettings
+  m_EditorClassIdentifier: 
+  _agents:
+  - _id: Agent.LowPolyAgent_Biker
+    _displayName: Biker
+    _description: 
+    _icon: {fileID: 21300000, guid: 3ddd9e2dcc72aa9419c43c6b08aef8b5, type: 3}
+    _agentPrefab: {fileID: 4635426057031655363, guid: f80782fb31c1b0f408b98037a904efc9, type: 3}
+    _menuAgentPrefab: {fileID: 776050964044516237, guid: ad14532642b829e45af138e79fe1bbdc, type: 3}
+  - _id: Agent.LowPolyAgent_FastFoodGuy
+    _displayName: Fast Food Guy
+    _description: 
+    _icon: {fileID: 21300000, guid: 3ddd9e2dcc72aa9419c43c6b08aef8b5, type: 3}
+    _agentPrefab: {fileID: 636608019861412106, guid: c645b256c5dde494d83ab34f3e6a2fd7, type: 3}
+    _menuAgentPrefab: {fileID: 7805223552153632792, guid: 1fb3d8fd45725af4881cd1351e13c000, type: 3}
+  - _id: Agent.LowPolyAgent_FireFighter
+    _displayName: Fire Fighter
+    _description: 
+    _icon: {fileID: 21300000, guid: 3ddd9e2dcc72aa9419c43c6b08aef8b5, type: 3}
+    _agentPrefab: {fileID: 6208723408040567458, guid: 5a5685c2fb5c4ef498a90c663d62fff7, type: 3}
+    _menuAgentPrefab: {fileID: 6863256991682110770, guid: 8b269b3d5b1a12b4ba859f00aedfba0e, type: 3}
+  - _id: Agent.LowPolyAgent_GamerGirl
+    _displayName: Gamer Girl
+    _description: 
+    _icon: {fileID: 21300000, guid: 3ddd9e2dcc72aa9419c43c6b08aef8b5, type: 3}
+    _agentPrefab: {fileID: 2852754789133664612, guid: 579ddc2fa67904f418b3d627ef15d8b1, type: 3}
+    _menuAgentPrefab: {fileID: 6761444264262938488, guid: abae4a548f65621468f267034bfadb58, type: 3}
+  - _id: Agent.LowPolyAgent_Gangster
+    _displayName: Gangster
+    _description: 
+    _icon: {fileID: 21300000, guid: 3ddd9e2dcc72aa9419c43c6b08aef8b5, type: 3}
+    _agentPrefab: {fileID: 5992830323690905457, guid: 9b4d9fcff5d26cf428aeaec6214c4b39, type: 3}
+    _menuAgentPrefab: {fileID: 3306269364415706991, guid: 57abb4fcd8c41bd418adfed0e75fe473, type: 3}
+  - _id: Agent.LowPolyAgent_Grandma
+    _displayName: Grandma
+    _description: 
+    _icon: {fileID: 21300000, guid: 3ddd9e2dcc72aa9419c43c6b08aef8b5, type: 3}
+    _agentPrefab: {fileID: 2131282140477015364, guid: b6c0a58b005a5cb4fae3a5cae7b96a1b, type: 3}
+    _menuAgentPrefab: {fileID: 5165221839991550956, guid: 4df851e7804f8be4fafece109cbf1d97, type: 3}
+  - _id: Agent.LowPolyAgent_Grandpa
+    _displayName: Grandpa
+    _description: 
+    _icon: {fileID: 21300000, guid: 3ddd9e2dcc72aa9419c43c6b08aef8b5, type: 3}
+    _agentPrefab: {fileID: 4740588249028428560, guid: 835977a3bba71b243a250a325dd95764, type: 3}
+    _menuAgentPrefab: {fileID: 3546618862259967903, guid: 6e7a680eab0502f4a9e00413a0b18c5e, type: 3}
+  - _id: Agent.LowPolyAgent_HipsterGirl
+    _displayName: Hipster Girl
+    _description: 
+    _icon: {fileID: 21300000, guid: 3ddd9e2dcc72aa9419c43c6b08aef8b5, type: 3}
+    _agentPrefab: {fileID: 4714028560222729750, guid: 7c01ba58ffb117341acbd26842ce72d6, type: 3}
+    _menuAgentPrefab: {fileID: 725952544976830822, guid: 96419c1adc8c1294ebf3ed1808a88ef5, type: 3}
+  - _id: Agent.LowPolyAgent_HipsterGuy
+    _displayName: Hipster Guy
+    _description: 
+    _icon: {fileID: 21300000, guid: 3ddd9e2dcc72aa9419c43c6b08aef8b5, type: 3}
+    _agentPrefab: {fileID: 3167685579126761344, guid: 92ce1116a2ae9c948bbebf23d0a07c8e, type: 3}
+    _menuAgentPrefab: {fileID: 4666543716944590858, guid: a6cd16cd9e052cf4c98504afb7ba2127, type: 3}
+  - _id: Agent.LowPolyAgent_Hobo
+    _displayName: Florida Man
+    _description: 
+    _icon: {fileID: 21300000, guid: 3ddd9e2dcc72aa9419c43c6b08aef8b5, type: 3}
+    _agentPrefab: {fileID: 5342012140410590696, guid: ffd59599dab5ff446b4b593a2aa51e3d, type: 3}
+    _menuAgentPrefab: {fileID: 2609175835941796953, guid: b74ad770635c33b43b4a77efdbe3b943, type: 3}
+  - _id: Agent.LowPolyAgent_Hotdog
+    _displayName: Hotdog
+    _description: 
+    _icon: {fileID: 21300000, guid: 3ddd9e2dcc72aa9419c43c6b08aef8b5, type: 3}
+    _agentPrefab: {fileID: 8425912651862194148, guid: 0d08cbf14e76f0a4e8eb0b41bbf036d7, type: 3}
+    _menuAgentPrefab: {fileID: 8373310294461727707, guid: 9c2fc57aec331834a95c1e05beb2fedf, type: 3}
+  - _id: Agent.LowPolyAgent_Jock
+    _displayName: Jock
+    _description: 
+    _icon: {fileID: 21300000, guid: 3ddd9e2dcc72aa9419c43c6b08aef8b5, type: 3}
+    _agentPrefab: {fileID: 1424232941564595350, guid: 21164092fb56fbb4ebddf67555614dd8, type: 3}
+    _menuAgentPrefab: {fileID: 153020159782828951, guid: 58c2c67072141c440bf8974a12b060b7, type: 3}
+  - _id: Agent.LowPolyAgent_Paramedic
+    _displayName: Paramedic
+    _description: 
+    _icon: {fileID: 21300000, guid: 3ddd9e2dcc72aa9419c43c6b08aef8b5, type: 3}
+    _agentPrefab: {fileID: 4161015018683907233, guid: 99f978e860edc2246bf8b81129c7f8f2, type: 3}
+    _menuAgentPrefab: {fileID: 4524667704192654069, guid: 642f2d78aed999341bee419d265eaf98, type: 3}
+  - _id: Agent.LowPolyAgent_PunkGirl
+    _displayName: Punk Girl
+    _description: 
+    _icon: {fileID: 21300000, guid: 3ddd9e2dcc72aa9419c43c6b08aef8b5, type: 3}
+    _agentPrefab: {fileID: 7445453330324559044, guid: af9f3b0b9bdaaeb41a7cc2e0c7e5e972, type: 3}
+    _menuAgentPrefab: {fileID: 5089673531262253135, guid: d8f9cd5f6514e6e469417b1400a99464, type: 3}
+  - _id: Agent.LowPolyAgent_PunkGuy
+    _displayName: Punk Guy
+    _description: 
+    _icon: {fileID: 21300000, guid: 3ddd9e2dcc72aa9419c43c6b08aef8b5, type: 3}
+    _agentPrefab: {fileID: 1493572148237506802, guid: f005e4a8525ac37479952f4ed6a03367, type: 3}
+    _menuAgentPrefab: {fileID: 5242393254192928947, guid: dc4887440ab46b54f9117a1998e8dc82, type: 3}
+  - _id: Agent.LowPolyAgent_Roadworker
+    _displayName: Roadworker
+    _description: 
+    _icon: {fileID: 21300000, guid: 3ddd9e2dcc72aa9419c43c6b08aef8b5, type: 3}
+    _agentPrefab: {fileID: 7613176846001261117, guid: a4992989b0594a84686241c64dd2f726, type: 3}
+    _menuAgentPrefab: {fileID: 8591413627731120712, guid: 759949b7db69a8341be07eb90951c5ed, type: 3}
+  - _id: Agent.LowPolyAgent_ShopKeeper
+    _displayName: Shop Keeper
+    _description: 
+    _icon: {fileID: 21300000, guid: 3ddd9e2dcc72aa9419c43c6b08aef8b5, type: 3}
+    _agentPrefab: {fileID: 1878091625259065895, guid: 54c1d67e22e4a8c4d9e1d190b163d3f5, type: 3}
+    _menuAgentPrefab: {fileID: 8857746194428909912, guid: dcacbd354cfd8964392f7c6613a80746, type: 3}
+  - _id: Agent.LowPolyAgent_SummerGirl
+    _displayName: Summer Girl
+    _description: 
+    _icon: {fileID: 21300000, guid: 3ddd9e2dcc72aa9419c43c6b08aef8b5, type: 3}
+    _agentPrefab: {fileID: 4339060498224747734, guid: 7c535ccb82d11fe42bebd0b5bd8c606b, type: 3}
+    _menuAgentPrefab: {fileID: 5746643382554454323, guid: 41926ffc74a68de44acbd9915a132684, type: 3}
+  - _id: Agent.LowPolyAgent_Tourist
+    _displayName: Tourist
+    _description: 
+    _icon: {fileID: 21300000, guid: 3ddd9e2dcc72aa9419c43c6b08aef8b5, type: 3}
+    _agentPrefab: {fileID: 6278581482941486825, guid: 629b59d7d5533fa45ac6d19383a8e888, type: 3}
+    _menuAgentPrefab: {fileID: 3045950842886807073, guid: 205e8e29f3eba8245aa02c4f3be5dfac, type: 3}

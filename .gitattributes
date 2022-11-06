@@ -4,11 +4,10 @@
 *.obj filter=lfs diff=lfs merge=lfs -text
 *.png filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
+*.tga filter=lfs diff=lfs merge=lfs -text
 *.mp4 filter=lfs diff=lfs merge=lfs -text
 *.fbx filter=lfs diff=lfs merge=lfs -text
-
 # Font assets
 Assets\Fonts\static\*.asset filter=lfs diff=lfs merge=lfs -text
-
 # PDFs
 Assets\AllIn1SpriteShader\*.pdf

@@ -65,3 +65,11 @@ MonoBehaviour:
     _recommendedPlayers: 200
     _maxPlayers: 200
     _showInMapSelection: 1
+  - _id: Map.Swamp
+    _scenePath: Scenes/Swamp
+    _displayName: The Swamp
+    _description: Map used for development
+    _image: {fileID: 0}
+    _recommendedPlayers: 4
+    _maxPlayers: 4
+    _showInMapSelection: 1

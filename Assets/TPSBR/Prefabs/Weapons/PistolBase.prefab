@@ -418,7 +418,7 @@ MonoBehaviour:
   _fireTransform: {fileID: 9016017254933866730}
   _fireParticlePlayer: {fileID: 179846, guid: a7730127594a3ad46a512f70521a6446, type: 3}
   _fireParticleProxy: {fileID: 1649671657740404, guid: 15d0eae3002f3f247b110cd7610d81b6, type: 3}
-  _projectile: {fileID: 6830586781350691919, guid: d21d773ce488ece4382c968e5d55128e, type: 3}
+  _projectile: {fileID: 6830586781350691919, guid: bd6d0d6b37ef0844ebe13fee8715e505, type: 3}
   _impactSetup: {fileID: 11400000, guid: 95f210b9b38003d48925d0002284fcb4, type: 2}
   _damageMultiplier: 1
 --- !u!1 &2011200012300043199

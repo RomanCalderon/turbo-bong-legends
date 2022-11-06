@@ -166,99 +166,99 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sets:
-  - _speed: 2.1
+  - _speed: 0.6
     _nodes:
     - Clip: {fileID: -203655887218126122, guid: f3079bb718eca6741a927ddb79043f94, type: 3}
       Speed: 1
       Position: {x: 0, y: 0}
     - Clip: {fileID: -203655887218126122, guid: ca6a4c518b6a36b4facc5d7895c32e41, type: 3}
-      Speed: 1
+      Speed: 0.9
       Position: {x: 0, y: 3.466}
     - Clip: {fileID: -203655887218126122, guid: 96942f41bfbb21b4c8bd8e6844f245f5, type: 3}
-      Speed: 2
+      Speed: 0.75
       Position: {x: 0, y: -2.4839}
     - Clip: {fileID: -203655887218126122, guid: 5dd7a804ad2def242b43008d464df9c0, type: 3}
-      Speed: 1
+      Speed: 0.8
       Position: {x: -3.1064, y: 0}
     - Clip: {fileID: -203655887218126122, guid: c6d8910d670f62e41adf78b44a5f4936, type: 3}
-      Speed: 1
+      Speed: 0.8
       Position: {x: 3.2702, y: 0}
     - Clip: {fileID: -203655887218126122, guid: 5b89304b6280a5c44bf1d13ee039eee3, type: 3}
-      Speed: 0.7
+      Speed: 0.6
       Position: {x: -2.3248963, y: 2.3248963}
     - Clip: {fileID: -203655887218126122, guid: 1b8bdf8317bc6de4199313c0bab58a9d, type: 3}
-      Speed: 0.7
+      Speed: 0.6
       Position: {x: 2.372202, y: 2.372202}
     - Clip: {fileID: -203655887218126122, guid: 47ad5d0a2e54cd945ba07b8707632ce6, type: 3}
-      Speed: 3
+      Speed: 1
       Position: {x: -2.0172343, y: -2.0172343}
     - Clip: {fileID: -203655887218126122, guid: 23b2eb95f6fa5dd43b0b100e2808c2f9, type: 3}
-      Speed: 3
+      Speed: 1
       Position: {x: 1.9655447, y: -1.9655447}
-  - _speed: 2
+  - _speed: 0.75
     _nodes:
     - Clip: {fileID: -203655887218126122, guid: dbc8f88c3bd33bb4eb619cfc80f15654, type: 3}
       Speed: 1
       Position: {x: 0, y: 0}
     - Clip: {fileID: -203655887218126122, guid: 1a25795be4352e74c898e3ba17e6beb6, type: 3}
-      Speed: 0.75
+      Speed: 0.9
       Position: {x: 0, y: 3.466}
     - Clip: {fileID: -203655887218126122, guid: ec134634d850d854bb61256e49973a09, type: 3}
-      Speed: 0.7
+      Speed: 0.75
       Position: {x: 0, y: -2.4839}
     - Clip: {fileID: -203655887218126122, guid: 8748a0dc423042644ab87bf6e1bdb477, type: 3}
-      Speed: 0.75
+      Speed: 0.8
       Position: {x: -3.1064, y: 0}
     - Clip: {fileID: -203655887218126122, guid: ff50fc23ebb55244f912a7fc92a70f07, type: 3}
-      Speed: 0.75
+      Speed: 0.8
       Position: {x: 3.2702, y: 0}
     - Clip: {fileID: -203655887218126122, guid: 79295648ee00c9d4d93e437d687ba718, type: 3}
-      Speed: 0.7
+      Speed: 0.9
       Position: {x: -2.3248963, y: 2.3248963}
     - Clip: {fileID: -203655887218126122, guid: 935eec91b308e09469493837d4ae6f8f, type: 3}
-      Speed: 0.7
+      Speed: 0.9
       Position: {x: 2.372202, y: 2.372202}
     - Clip: {fileID: -203655887218126122, guid: e1e9e93df53e40f40bb590d389611586, type: 3}
-      Speed: 0.7
+      Speed: 1
       Position: {x: -2.0172343, y: -2.0172343}
     - Clip: {fileID: -203655887218126122, guid: a942e5dd6e1c8a84681e655c1e1a0522, type: 3}
-      Speed: 0.7
+      Speed: 1
       Position: {x: 1.9655447, y: -1.9655447}
-  - _speed: 2
+  - _speed: 0.75
     _nodes:
     - Clip: {fileID: -203655887218126122, guid: 8bff21386d8bf8f4f8b90a2fc582ea97, type: 3}
       Speed: 1
       Position: {x: 0, y: 0}
     - Clip: {fileID: -203655887218126122, guid: 51e7419764faa564498e2c9b49240e1f, type: 3}
-      Speed: 0.75
+      Speed: 0.9
       Position: {x: 0, y: 3.466}
     - Clip: {fileID: -203655887218126122, guid: 2ec6d2d3e94cb5040b8133a8a73a394a, type: 3}
-      Speed: 0.7
+      Speed: 0.75
       Position: {x: 0, y: -2.4839}
     - Clip: {fileID: -203655887218126122, guid: 04148e489c811024a96f119ef4c622ac, type: 3}
-      Speed: 0.75
+      Speed: 0.8
       Position: {x: -3.1064, y: 0}
     - Clip: {fileID: -203655887218126122, guid: 549352cbb6760444c9dd1a080dc2615d, type: 3}
-      Speed: 0.75
+      Speed: 0.8
       Position: {x: 3.2702, y: 0}
     - Clip: {fileID: -203655887218126122, guid: 7a499caa31cb46c4e8683e92c7a0b4dd, type: 3}
-      Speed: 0.7
+      Speed: 0.9
       Position: {x: -2.3248963, y: 2.3248963}
     - Clip: {fileID: -203655887218126122, guid: 4f65ad08331af014a8ab873a3dd231e4, type: 3}
-      Speed: 0.7
+      Speed: 0.9
       Position: {x: 2.372202, y: 2.372202}
     - Clip: {fileID: -203655887218126122, guid: 64eca94fef3e77242b00f2f9ae542ad9, type: 3}
-      Speed: 0.7
+      Speed: 1
       Position: {x: -2.0172343, y: -2.0172343}
     - Clip: {fileID: -203655887218126122, guid: 7d03210eef94cc34ca21a429485306e3, type: 3}
-      Speed: 0.7
+      Speed: 1
       Position: {x: 1.9655447, y: -1.9655447}
   _isLooping: 1
   _blendTime: 0.25
-  _minAnimationSpeed: 0.25
-  _maxAnimationSpeed: 10
-  _directionSmoothingSpeed: 12
-  _magnitudeSmoothingSpeed: 16
+  _minAnimationSpeed: 0.5
+  _maxAnimationSpeed: 4
+  _directionSmoothingSpeed: 6
+  _magnitudeSmoothingSpeed: 8
 --- !u!1 &659296930468917536
 GameObject:
   m_ObjectHideFlags: 0
@@ -1598,121 +1598,6 @@ Transform:
   m_Father: {fileID: 6997708519979428844}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1989242507429518980
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6137579066182675069}
-  - component: {fileID: 3946295064219497361}
-  - component: {fileID: 7224714089180461848}
-  m_Layer: 8
-  m_Name: Spot Light
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6137579066182675069
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1989242507429518980}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 8939792382317126049}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!108 &3946295064219497361
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1989242507429518980}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 0
-  m_Shape: 0
-  m_Color: {r: 0.88, g: 0.9625364, b: 1, a: 1}
-  m_Intensity: 20
-  m_Range: 40
-  m_SpotAngle: 40
-  m_InnerSpotAngle: 30
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 1
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.02
-    m_NormalBias: 0.1
-    m_NearPlane: 0.1
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 4
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 0
-  m_ColorTemperature: 6570
-  m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
---- !u!114 &7224714089180461848
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1989242507429518980}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Version: 1
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 0
-  m_LightLayerMask: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
 --- !u!1 &1991880167563539081
 GameObject:
   m_ObjectHideFlags: 0
@@ -2135,7 +2020,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.4
   m_Range: 5
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -4267,8 +4152,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6137579066182675069}
+  m_Children: []
   m_Father: {fileID: 1568966931159675210}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

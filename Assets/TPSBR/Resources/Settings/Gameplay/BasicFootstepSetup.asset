@@ -14,15 +14,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _fallbackWalkSound:
     Clips:
-    - {fileID: 8300000, guid: 9e30d4a98224ad34c8f0dd86542ca5ba, type: 3}
-    - {fileID: 8300000, guid: b70e5e60f0faa6d4bb427dc6a18317fa, type: 3}
-    - {fileID: 8300000, guid: 6afed6aff6f40cd4cac15e7067ad9760, type: 3}
-    - {fileID: 8300000, guid: aab25dd3964e34c4798110ccb63f2550, type: 3}
-    - {fileID: 8300000, guid: b2d5ee2da21bec54fb7113051f387d05, type: 3}
-    - {fileID: 8300000, guid: 8ea916c1c236b884d8d5d0c107e71f17, type: 3}
-    Volume: 0.05
+    - {fileID: 8300000, guid: 7efa39357ce3b6d44982aab104021da4, type: 3}
+    - {fileID: 8300000, guid: 1cc44863823cb204ead4640e17e0f6ce, type: 3}
+    - {fileID: 8300000, guid: 058a3621b7524db4ebb5f699e6493b71, type: 3}
+    - {fileID: 8300000, guid: 993dc02d764d7a146af3c38abf66186c, type: 3}
+    - {fileID: 8300000, guid: faa4c04355949e642a28580d02d1f679, type: 3}
+    - {fileID: 8300000, guid: 66b4d3533c4c8694892ab5784459e5b3, type: 3}
+    - {fileID: 8300000, guid: 29295ee0df3026f4cbf857e8e36d7e08, type: 3}
+    - {fileID: 8300000, guid: 77df18b017558b84589e5e3aca5ad767, type: 3}
+    - {fileID: 8300000, guid: a91f5c7816a1d4749938b86f40d8faf4, type: 3}
+    Volume: 0.1
     MaxPitchChange: 0.1
-    Delay: 0.03
+    Delay: 0
     Loop: 0
     FadeIn: 0
     FadeOut: 0
@@ -31,15 +34,18 @@ MonoBehaviour:
     RepeatDelay: 0
   _fallbackRunSound:
     Clips:
-    - {fileID: 8300000, guid: 8beb6a965d2464242956f3798f011459, type: 3}
-    - {fileID: 8300000, guid: 6382cc592ae19f24fb132ab35b4144d0, type: 3}
-    - {fileID: 8300000, guid: 6387b86e3ba539747b3b58c10b92a90f, type: 3}
-    - {fileID: 8300000, guid: 81765f6060a50c648a0ebf576a9933c7, type: 3}
-    - {fileID: 8300000, guid: 4affc17b522798d4fbd4e7c3d159888c, type: 3}
-    - {fileID: 8300000, guid: 7cccf54f3180fee44b5f1d6dd6650981, type: 3}
+    - {fileID: 8300000, guid: 7efa39357ce3b6d44982aab104021da4, type: 3}
+    - {fileID: 8300000, guid: 1cc44863823cb204ead4640e17e0f6ce, type: 3}
+    - {fileID: 8300000, guid: 058a3621b7524db4ebb5f699e6493b71, type: 3}
+    - {fileID: 8300000, guid: 993dc02d764d7a146af3c38abf66186c, type: 3}
+    - {fileID: 8300000, guid: faa4c04355949e642a28580d02d1f679, type: 3}
+    - {fileID: 8300000, guid: 66b4d3533c4c8694892ab5784459e5b3, type: 3}
+    - {fileID: 8300000, guid: 29295ee0df3026f4cbf857e8e36d7e08, type: 3}
+    - {fileID: 8300000, guid: 77df18b017558b84589e5e3aca5ad767, type: 3}
+    - {fileID: 8300000, guid: a91f5c7816a1d4749938b86f40d8faf4, type: 3}
     Volume: 0.6
     MaxPitchChange: 0.1
-    Delay: 0
+    Delay: 0.15
     Loop: 0
     FadeIn: 0
     FadeOut: 0
@@ -67,12 +73,46 @@ MonoBehaviour:
       RepeatDelay: 0
     SoundRun:
       Clips:
-      - {fileID: 8300000, guid: 8a4894eb127ea444cbc4d9e4812b97de, type: 3}
-      - {fileID: 8300000, guid: 16b7bad38a09190418d3f92a922eb04c, type: 3}
-      - {fileID: 8300000, guid: 2bc7a1c5538c5e44ba0743e29f99533f, type: 3}
-      - {fileID: 8300000, guid: b737b8ab6827db34facb12c188debb5b, type: 3}
-      - {fileID: 8300000, guid: 2a212613b77991241baaa0c8f31e76ae, type: 3}
-      - {fileID: 8300000, guid: ded04416056832d4fbda7cde5e81905f, type: 3}
+      - {fileID: 8300000, guid: 3b5bdea158aad004fadfbe40094b893b, type: 3}
+      - {fileID: 8300000, guid: f131b59cdc5503840a71d74dc117b7f5, type: 3}
+      - {fileID: 8300000, guid: e4114ca3d24fafe4ba230c0590195220, type: 3}
+      - {fileID: 8300000, guid: 6246f8f49e1916c4ca0ed6f798e3e225, type: 3}
+      - {fileID: 8300000, guid: 6888e8b5699826e44b16a3c1649cf1f5, type: 3}
+      - {fileID: 8300000, guid: 1fe0b11b6cba4ff4cb8553127860aaa8, type: 3}
+      - {fileID: 8300000, guid: 5ab30cc20efabb04693ecd4853441c63, type: 3}
+      Volume: 0.75
+      MaxPitchChange: 0.1
+      Delay: 0
+      Loop: 0
+      FadeIn: 0
+      FadeOut: 0
+      Repeat: 0
+      RepeatPlayCount: 0
+      RepeatDelay: 0
+  - Tag: Wood
+    SoundWalk:
+      Clips:
+      - {fileID: 8300000, guid: 1d976b6320d999b4ea7b2ded25e70eee, type: 3}
+      - {fileID: 8300000, guid: 9fecd616194dd9e48bfecab7549c803f, type: 3}
+      - {fileID: 8300000, guid: 567645c21164de041afb02113b4e36a6, type: 3}
+      - {fileID: 8300000, guid: 8b72e31c625fac344aa055b5b82f9ce9, type: 3}
+      - {fileID: 8300000, guid: bc85a33c80ff6994fa43ddc783b85620, type: 3}
+      Volume: 0.3
+      MaxPitchChange: 0.1
+      Delay: 0
+      Loop: 0
+      FadeIn: 0
+      FadeOut: 0
+      Repeat: 0
+      RepeatPlayCount: 0
+      RepeatDelay: 0
+    SoundRun:
+      Clips:
+      - {fileID: 8300000, guid: 1d976b6320d999b4ea7b2ded25e70eee, type: 3}
+      - {fileID: 8300000, guid: 9fecd616194dd9e48bfecab7549c803f, type: 3}
+      - {fileID: 8300000, guid: 567645c21164de041afb02113b4e36a6, type: 3}
+      - {fileID: 8300000, guid: 8b72e31c625fac344aa055b5b82f9ce9, type: 3}
+      - {fileID: 8300000, guid: bc85a33c80ff6994fa43ddc783b85620, type: 3}
       Volume: 0.75
       MaxPitchChange: 0.1
       Delay: 0

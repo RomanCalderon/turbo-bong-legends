@@ -72,7 +72,7 @@ MonoBehaviour:
       nefarious soon moved in, which caused the plants to rot and decay. This once
       mystical land became a forested wetland, with creatures hidden between and
       beneath.
-    _image: {fileID: 21300000, guid: 0da62f990f31c31419ebdfb71e84f28a, type: 3}
+    _image: {fileID: 21300000, guid: d669538c1e7b43a4ca40231b99f91711, type: 3}
     _recommendedPlayers: 4
     _maxPlayers: 4
     _showInMapSelection: 1

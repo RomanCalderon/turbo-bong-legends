@@ -13,6 +13,17 @@ MonoBehaviour:
   m_Name: MapSettings
   m_EditorClassIdentifier: 
   _maps:
+  - _id: Map.Swamp
+    _scenePath: Scenes/Swamp
+    _displayName: The Swamp
+    _description: Once upon a time, this was a beautiful landscape. But something
+      nefarious soon moved in, which caused the plants to rot and decay. This once
+      mystical land became a forested wetland, with creatures hidden between and
+      beneath.
+    _image: {fileID: 21300000, guid: d669538c1e7b43a4ca40231b99f91711, type: 3}
+    _recommendedPlayers: 8
+    _maxPlayers: 16
+    _showInMapSelection: 1
   - _id: Map.GenArea2
     _scenePath: Scenes/GenArea2
     _displayName: GenArea 2
@@ -64,15 +75,4 @@ MonoBehaviour:
     _image: {fileID: 21300000, guid: f3a98a44addd7bd4c920c80dcfd4eed3, type: 3}
     _recommendedPlayers: 200
     _maxPlayers: 200
-    _showInMapSelection: 1
-  - _id: Map.Swamp
-    _scenePath: Scenes/Swamp
-    _displayName: The Swamp
-    _description: Once upon a time, this was a beautiful landscape. But something
-      nefarious soon moved in, which caused the plants to rot and decay. This once
-      mystical land became a forested wetland, with creatures hidden between and
-      beneath.
-    _image: {fileID: 21300000, guid: 0da62f990f31c31419ebdfb71e84f28a, type: 3}
-    _recommendedPlayers: 4
-    _maxPlayers: 4
     _showInMapSelection: 1

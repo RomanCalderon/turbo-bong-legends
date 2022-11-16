@@ -289,20 +289,20 @@ MonoBehaviour:
   _ShrinkCenter: {x: 0, y: 0, z: 0}
   _ShrinkRadius: 0
   _mapRadius: 800
-  _startRadius: 650
-  _endRadius: 80
+  _startRadius: 500
+  _endRadius: 0
   _shrinkArea: {fileID: 7595799590120957849}
   _shrinkAreaTarget: {fileID: 8635100555741651000}
-  _shrinkStartDelay: 45
-  _minShrinkDelay: 35
+  _shrinkStartDelay: 60
+  _minShrinkDelay: 60
   _maxShrinkDelay: 90
   _minShrinkDelayPlayers: 2
-  _maxShrinkDelayPlayers: 60
-  _shrinkDuration: 20
-  _shrinkAnnounceDuration: 30
+  _maxShrinkDelayPlayers: 8
+  _shrinkDuration: 15
+  _shrinkAnnounceDuration: 60
   _shrinkSteps: 5
-  _damagePerTick: 5
-  _damageTickTime: 1
+  _damagePerTick: 15
+  _damageTickTime: 2
 --- !u!114 &5872025486481888425
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -107,9 +107,16 @@ namespace TPSBR
             data.KinematicSpeed = _moveState.GetBaseSpeed((Quaternion.Inverse(data.TransformRotation) * data.KinematicDirection).XZ0().normalized, default);
 			data.KinematicSpeed *= _speedMultiplier;
 
-            // Sprinting
-            bool sprintInput = Keyboard.current.leftShiftKey.isPressed;
-            data.KinematicSpeed *= sprintInput ? _sprintSpeedMultiplier : 1f;
+			// Crouching
+			bool crouchInput = Keyboard.current.leftCtrlKey.isPressed;
+			data.KinematicSpeed *= crouchInput ? 0.5f : 1f;
+
+			if (crouchInput == false)
+			{
+				// Sprinting
+				bool sprintInput = Keyboard.current.leftShiftKey.isPressed;
+				data.KinematicSpeed *= sprintInput ? _sprintSpeedMultiplier : 1f;
+			}
         }
 
 		public override void SetKinematicVelocity(KCC kcc, KCCData data)

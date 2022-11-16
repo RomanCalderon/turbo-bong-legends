@@ -48,9 +48,9 @@ MonoBehaviour:
   _interpolationDataSource: 3
   GameplayName: Elimination
   MaxPlayers: 200
-  ScorePerKill: 10
+  ScorePerKill: 100
   ScorePerDeath: 0
-  ScorePerSuicide: -10
+  ScorePerSuicide: -100
   RespawnTime: 8
   TimeLimit: 0
   BackfillTimeLimit: 300
@@ -64,12 +64,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 9b9988e7c4c2e724eb751db972209419, type: 2}
   - {fileID: 11400000, guid: da0e42120d80f0e48a67314a635f4897, type: 2}
   _State: 0
-  __startTick: 0
-  __shrinkingArea: {fileID: 0}
   _type: 2
   _useShrinkingArea: 1
   _maxKillInRowDelay: 6
-  _extraLives: 4
+  _extraLives: 3
 --- !u!114 &7530579074752114224
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -2,6 +2,7 @@ namespace TPSBR
 {
 	using UnityEngine;
 	using Fusion.KCC;
+	using UnityEngine.InputSystem;
 
 	public sealed class AgentGroundKCCProcessor : BaseKCCProcessor
 	{
@@ -9,7 +10,9 @@ namespace TPSBR
 
 		[SerializeField]
 		private float _speedMultiplier = 1.0f;
-		[SerializeField][Tooltip("Kinematic velocity is accelerated by calculated kinematic speed multiplied by this.")]
+		[SerializeField]
+		private float _sprintSpeedMultiplier = 1.75f;
+        [SerializeField][Tooltip("Kinematic velocity is accelerated by calculated kinematic speed multiplied by this.")]
 		private float _relativeKinematicAcceleration = 50.0f;
 		[SerializeField][Tooltip("Kinematic velocity is decelerated by actual kinematic speed multiplied by this. The faster KCC moves, the more deceleration is applied.")]
 		private float _proportionalKinematicFriction = 35.0f;
@@ -101,9 +104,13 @@ namespace TPSBR
 				data.KinematicTangent = data.GroundTangent;
 			}
 
-			data.KinematicSpeed = _moveState.GetBaseSpeed((Quaternion.Inverse(data.TransformRotation) * data.KinematicDirection).XZ0().normalized, default);
+            data.KinematicSpeed = _moveState.GetBaseSpeed((Quaternion.Inverse(data.TransformRotation) * data.KinematicDirection).XZ0().normalized, default);
 			data.KinematicSpeed *= _speedMultiplier;
-		}
+
+            // Sprinting
+            bool sprintInput = Keyboard.current.leftShiftKey.isPressed;
+            data.KinematicSpeed *= sprintInput ? _sprintSpeedMultiplier : 1f;
+        }
 
 		public override void SetKinematicVelocity(KCC kcc, KCCData data)
 		{

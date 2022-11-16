@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sets:
-  - _speed: 0.6
+  - _speed: 0.5
     _nodes:
     - Clip: {fileID: -203655887218126122, guid: f3079bb718eca6741a927ddb79043f94, type: 3}
       Speed: 1
@@ -256,7 +256,7 @@ MonoBehaviour:
   _isLooping: 1
   _blendTime: 0.25
   _minAnimationSpeed: 0.5
-  _maxAnimationSpeed: 4
+  _maxAnimationSpeed: 2
   _directionSmoothingSpeed: 6
   _magnitudeSmoothingSpeed: 8
 --- !u!1 &659296930468917536
@@ -6502,6 +6502,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6997708519979428844}
     m_Modifications:
+    - target: {fileID: 3925472157761848771, guid: 0dbfdf23b608fd24997ad49b5bf209e7, type: 3}
+      propertyPath: _sprintSpeedMultiplier
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6921456206385888504, guid: 0dbfdf23b608fd24997ad49b5bf209e7, type: 3}
       propertyPath: m_RootOrder
       value: 9

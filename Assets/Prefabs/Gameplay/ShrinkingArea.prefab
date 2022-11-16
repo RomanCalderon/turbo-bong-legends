@@ -294,12 +294,12 @@ MonoBehaviour:
   _shrinkArea: {fileID: 7595799590120957849}
   _shrinkAreaTarget: {fileID: 8635100555741651000}
   _shrinkStartDelay: 60
-  _minShrinkDelay: 45
-  _maxShrinkDelay: 60
+  _minShrinkDelay: 60
+  _maxShrinkDelay: 90
   _minShrinkDelayPlayers: 2
-  _maxShrinkDelayPlayers: 60
+  _maxShrinkDelayPlayers: 8
   _shrinkDuration: 15
-  _shrinkAnnounceDuration: 30
+  _shrinkAnnounceDuration: 60
   _shrinkSteps: 5
   _damagePerTick: 15
   _damageTickTime: 2

@@ -12,6 +12,12 @@ namespace TPSBR
 		private float _speedMultiplier = 1.0f;
 		[SerializeField]
 		private float _sprintSpeedMultiplier = 1.75f;
+        [SerializeField]
+        private float _crouchSpeedMultiplier = 0.5f;
+        [SerializeField]
+		private float _slideSpeedThreshold = 5.0f;
+		[SerializeField]
+		private float _slideImpulseStrength = 8.0f;
         [SerializeField][Tooltip("Kinematic velocity is accelerated by calculated kinematic speed multiplied by this.")]
 		private float _relativeKinematicAcceleration = 50.0f;
 		[SerializeField][Tooltip("Kinematic velocity is decelerated by actual kinematic speed multiplied by this. The faster KCC moves, the more deceleration is applied.")]
@@ -24,10 +30,11 @@ namespace TPSBR
 		private float _jumpMultiplier = 1.0f;
 
 		private MoveState _moveState;
+		private bool _didSlideImpulse = false;
 
-		// KCCProcessor INTERFACE
+        // KCCProcessor INTERFACE
 
-		public override float Priority => 2000;
+        public override float Priority => 2000;
 
 		public override EKCCStages GetValidStages(KCC kcc, KCCData data)
 		{
@@ -107,16 +114,32 @@ namespace TPSBR
             data.KinematicSpeed = _moveState.GetBaseSpeed((Quaternion.Inverse(data.TransformRotation) * data.KinematicDirection).XZ0().normalized, default);
 			data.KinematicSpeed *= _speedMultiplier;
 
-			// Crouching
 			bool crouchInput = Keyboard.current.leftCtrlKey.isPressed;
-			data.KinematicSpeed *= crouchInput ? 0.5f : 1f;
-
-			if (crouchInput == false)
+			bool forwardInput = Vector3.Dot(Vector3.forward, inputDirectionXZ) > 0;
+            if (crouchInput)
+			{
+				// Slide
+                if (data.RealSpeed > _slideSpeedThreshold && _didSlideImpulse == false && forwardInput == false)
+				{
+					Debug.LogFormat("sliding - speed [{0}]", data.RealSpeed);
+					_didSlideImpulse = true;
+					// Impulse velocity
+					data.DynamicVelocity += data.KinematicVelocity.normalized * _slideImpulseStrength;
+                }
+				else
+				{
+					// Apply crouch mulitplier
+					data.KinematicSpeed *= _crouchSpeedMultiplier;
+					_didSlideImpulse = false;
+                }
+			}
+			else
 			{
 				// Sprinting
 				bool sprintInput = Keyboard.current.leftShiftKey.isPressed;
 				data.KinematicSpeed *= sprintInput ? _sprintSpeedMultiplier : 1f;
-			}
+                _didSlideImpulse = false;
+            }
         }
 
 		public override void SetKinematicVelocity(KCC kcc, KCCData data)

@@ -46,6 +46,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _speedMultiplier: 1
   _sprintSpeedMultiplier: 1.75
+  _crouchSpeedMultiplier: 0.5
+  _slideSpeedThreshold: 5
   _relativeKinematicAcceleration: 50
   _proportionalKinematicFriction: 35
   _proportionalDynamicFriction: 20

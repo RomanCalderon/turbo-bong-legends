@@ -6503,8 +6503,32 @@ PrefabInstance:
     m_TransformParent: {fileID: 6997708519979428844}
     m_Modifications:
     - target: {fileID: 3925472157761848771, guid: 0dbfdf23b608fd24997ad49b5bf209e7, type: 3}
+      propertyPath: _slideSpeedThreshold
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3925472157761848771, guid: 0dbfdf23b608fd24997ad49b5bf209e7, type: 3}
+      propertyPath: _slideImpulseStrength
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3925472157761848771, guid: 0dbfdf23b608fd24997ad49b5bf209e7, type: 3}
+      propertyPath: _crouchSpeedMultiplier
+      value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 3925472157761848771, guid: 0dbfdf23b608fd24997ad49b5bf209e7, type: 3}
       propertyPath: _sprintSpeedMultiplier
-      value: 1.5
+      value: 1.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 3925472157761848771, guid: 0dbfdf23b608fd24997ad49b5bf209e7, type: 3}
+      propertyPath: _proportionalDynamicFriction
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 3925472157761848771, guid: 0dbfdf23b608fd24997ad49b5bf209e7, type: 3}
+      propertyPath: _proportionalKinematicFriction
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3925472157761848771, guid: 0dbfdf23b608fd24997ad49b5bf209e7, type: 3}
+      propertyPath: _relativeKinematicAcceleration
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 6921456206385888504, guid: 0dbfdf23b608fd24997ad49b5bf209e7, type: 3}
       propertyPath: m_RootOrder

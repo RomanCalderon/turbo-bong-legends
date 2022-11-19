@@ -137,7 +137,7 @@ namespace TPSBR
 			{
 				// Sprinting
 				bool sprintInput = Keyboard.current.leftShiftKey.isPressed;
-				data.KinematicSpeed *= sprintInput ? _sprintSpeedMultiplier : 1f;
+				data.KinematicSpeed *= sprintInput && forwardInput ? _sprintSpeedMultiplier : 1f;
                 _didSlideImpulse = false;
             }
         }

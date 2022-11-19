@@ -115,7 +115,7 @@ namespace TPSBR
 			data.KinematicSpeed *= _speedMultiplier;
 
 			bool crouchInput = Keyboard.current.leftCtrlKey.isPressed;
-			bool forwardInput = Vector3.Dot(Vector3.forward, inputDirectionXZ) > 0;
+			bool forwardInput = Vector3.Dot(transform.forward, inputDirectionXZ) > 0;
             if (crouchInput)
 			{
 				// Slide
